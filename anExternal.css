@@ -19,3 +19,10 @@ p {
 img {
 	float: right;
 }
+#rcorners {
+    border-radius: 50px 50px 50px 50px;
+    background: red;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
