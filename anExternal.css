@@ -1,0 +1,18 @@
+body {
+	color: dark blue;
+	background-color: gray;
+	font-family: helvetica;
+	font-size: 100%;
+}
+h1 {
+	color: black;
+	background-color: white;
+	font-family: calibri;
+	font-size: 125%;
+}
+p {
+	color: green;
+	background-color: yellow;
+	font-family: verdana;
+	font-size:80%;
+}
