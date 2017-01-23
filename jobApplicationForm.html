@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>What is My Car?</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+<h2>What is My Car?</h2>
+<p>&nbsp;</p>
+
+<form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset class="form-horizontal" >
+		<legend>Type</legend>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Brand</label>
+			<div class="col-sm-9">
+				<select class="form-control" name="brand">
+					<option value="" selected="true">Choose a Brand</option>
+					<option value="AUD">Audi</option>
+					<option value="BMW">BMW</option>
+					<option value="MER">Mercedes-Benz</option>
+					<option value="JAG">Jaguar</option>
+					<option value="TOY">Toyota</option>
+					<option value="HON">Honda</option>
+					<option value="MAZ">Mazda</option>
+					<option value="CAD">Cadillac</option>
+					<option value="FOR">Ford</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Type</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="type">
+			</div>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<fieldset class="form-horizontal" >
+		<legend>Condition</legend>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Mileage</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="mileage">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Previous Owners</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="prevowners">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label class="col-sm-12 control-label">Is the Car Fax Clean?</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="radio">
+					<label>
+						<input type="radio" name="carfax" value="yes">Yes
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="carfax" value="no">No
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label class="col-sm-12 control-label">Is there anything wrong with the car?</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_pt" value="exterior">
+						Exterior
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_ft" value="Interior">
+						Interior
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_sl" value="engine">
+						Engine
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_tp" value="trans">
+						Transmission
+					</label>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<fieldset>
+		<legend>When Can You Bring it In?</legend>
+		
+
+		<div class="form-group row">
+			<label class="col-sm-12 control-label">Hours available</label>
+			<div class="col-sm-12">
+				<table class="table table-bordered">
+					<tr>
+						<td></td>
+						<th>Sun</th>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thu</th>
+						<th>Fri</th>
+						<th>Sat</th>
+					</tr>
+					<tr>
+						<th>From</th>
+						<td><input class="form-control" type="time" name="su_from"></td>
+						<td><input class="form-control" type="time" name="mo_from"></td>
+						<td><input class="form-control" type="time" name="tu_from"></td>
+						<td><input class="form-control" type="time" name="we_from"></td>
+						<td><input class="form-control" type="time" name="th_from"></td>
+						<td><input class="form-control" type="time" name="fr_from"></td>
+						<td><input class="form-control" type="time" name="sa_from"></td>
+					</tr>
+					<tr>
+						<th>Until</th>
+						<td><input class="form-control" type="time" name="su_until"></td>
+						<td><input class="form-control" type="time" name="mo_until"></td>
+						<td><input class="form-control" type="time" name="tu_until"></td>
+						<td><input class="form-control" type="time" name="we_until"></td>
+						<td><input class="form-control" type="time" name="th_until"></td>
+						<td><input class="form-control" type="time" name="fr_until"></td>
+						<td><input class="form-control" type="time" name="sa_until"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<fieldset>
+		<legend>Comments</legend>
+		<div class="form-group">
+			<label class="control-label">Write down additional comments below</label>
+			<textarea class="form-control" name="comments" rows="6"></textarea>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+
+	<p>&nbsp;</p>
+
+</form>
+</div><!-- close .container -->
+</body>
+</html>
