@@ -1568,7 +1568,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: lightgray;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1655,7 +1655,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5385c1;
+		color: maroon;
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1806,7 +1806,7 @@
 
 		section.wrapper.style1, article.wrapper.style1 {
 			background: #5385c1;
-			color: #bacee6;
+			color: black;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -1858,7 +1858,7 @@
 		}
 
 	header p {
-		color: #bbb;
+		color: darkgreen;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2724,7 +2724,7 @@
 		}
 
 	#header {
-		color: #d4e0ef;
+		color: yellow;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
